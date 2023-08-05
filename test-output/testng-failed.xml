@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automaiton]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="tests.OrderFormTest">
+        <methods>
+          <include name="close"/>
+          <include name="start"/>
+          <include name="orderForm"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- tests.OrderFormTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="close"/>
+          <include name="start"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.WriterPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="start"/>
+          <include name="Test"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- tests.WriterPageTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Automaiton] -->
